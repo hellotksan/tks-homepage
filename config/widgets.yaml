@@ -1,0 +1,25 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- weatherapi:
+    label: Tokyo
+    latitude: 35.6895
+    longitude: 139.6917
+    units: metric
+    apiKey: 442d5b9795a24513b3a110632240212
+    cache: 5
+    format:
+      maximumFractionDigits: 1
+
+- search:
+    provider: google
+    focus: true
+    showSearchSuggestions: true
+    target: _blank
+
+- datetime:
+    text_size: 2xl
+    format:
+      dateStyle: short
+      timeStyle: long
